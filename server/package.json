@@ -16,7 +16,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
