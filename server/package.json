@@ -18,8 +18,10 @@
     "nodemon": "^3.1.0"
   },
   "scripts": {
-    "dev": "node app.js",
+    "prestart": "chmod +x node_modules/.bin/ts-node",
+    "dev": "ts-node index.ts",
     "build": "npm i"
+
   },
   "keywords": [],
   "author": "",
