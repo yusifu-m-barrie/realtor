@@ -19,7 +19,7 @@
   },
   "scripts": {
     "prestart": "chmod +x node_modules/.bin/ts-node",
-    "dev": "ts-node index.ts",
+    "dev": "nodemon index.ts",
     "build": "npm i"
 
   },
